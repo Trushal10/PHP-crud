@@ -1,0 +1,154 @@
+  /* Additional or modified styles can be added here */
+  .error {
+    border: 1px solid red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 0), 0 0 5px darkred;
+}
+
+input[type=text], [type=date], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit], [type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 4px 2px;
+  cursor: pointer;
+  float:calc(100% - 200px);
+  
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    width: 450px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 960px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+.Movietable {
+    text-align: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border-radius: 10px;
+    }
+    td, th {
+        border: 2px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+    tr:hover {
+        background-color: rgba(162, 229, 196, 0.774);
+    }
+    th {
+        background-color:#04AA6D;
+        color:white;
+        height: 50px;
+    }
+
+    div.container{
+        position: relative;
+        width: 400px;
+        height: 200px;
+        border: 3px solid #73ad21;
+    }   
+}
+/* 
+#btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 4px 2px;
+  cursor: pointer;
+  float:calc(100% - 200px);
+} */
+
+button{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.button{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+ 
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+
